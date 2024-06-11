@@ -2,6 +2,7 @@
 
 parameterList::parameterList() {}
 
+
 QList<QStringList> parameterList::getParameterList(gui::Parameter_List_Type aModule)
 {
     //Tried to make an example Parameter list in the format that MORIS has
@@ -410,3 +411,4 @@ QStringList parameterList::getOuterSubParameterListName(gui::Parameter_List_Type
     // retrieve the name for the specific sub-parameter list requested
     return tNames;
 }
+

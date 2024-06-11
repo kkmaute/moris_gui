@@ -19,6 +19,8 @@
 
 #include "parameterlist.h"
 
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -35,7 +37,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
-
     parameterList ParameterList;
     QHBoxLayout *layout = new QHBoxLayout(this);
     QVBoxLayout *sidePanel = new QVBoxLayout();

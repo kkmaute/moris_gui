@@ -1,0 +1,10 @@
+# ninja log v5
+3	3325	7398274094401312	moris_gui_autogen/timestamp	781909313bd4063
+3	3325	7398274094401312	moris_gui_autogen/mocs_compilation.cpp	781909313bd4063
+3	3325	7398274094401312	C:/Users/2021n/Documents/moris_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/moris_gui_autogen/timestamp	781909313bd4063
+3	3325	7398274094401312	C:/Users/2021n/Documents/moris_gui/build/Desktop_Qt_6_7_1_MinGW_64_bit-Debug/moris_gui_autogen/mocs_compilation.cpp	781909313bd4063
+3350	8882	7398274151493625	CMakeFiles/moris_gui.dir/parameterlist.cpp.obj	92db36570a973289
+3340	10763	7398274170914045	CMakeFiles/moris_gui.dir/moris_gui_autogen/mocs_compilation.cpp.obj	9f586260ca25a705
+3334	11196	7398274175258591	CMakeFiles/moris_gui.dir/main.cpp.obj	9042eb5e86bfa09
+3345	11588	7398274179149034	CMakeFiles/moris_gui.dir/mainwindow.cpp.obj	590448cec9a966ba
+11588	12087	7398274184106263	moris_gui.exe	a093984a8a3996ea
