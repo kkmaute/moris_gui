@@ -16,6 +16,7 @@
 #include <QComboBox>
 #include <QScrollArea>
 #include <QTreeWidget>
+#include <QVector>
 
 #include "parameterlist.h"
 
@@ -51,11 +52,11 @@ private:
     //Layout objects
     QHBoxLayout *layout = new QHBoxLayout(this);
     QVBoxLayout *sidePanel = new QVBoxLayout();
-    QList<QList<QFormLayout*>> formLayout;
+    QVector<QVector<QFormLayout*>> formLayout;
 
     //Scrolling objects
-    QList<QList<QWidget*>> scrollWidget;
-    QList<QList<QScrollArea*>> scrollArea;
+    QVector<QVector<QWidget*>> scrollWidget;
+    QVector<QVector<QScrollArea*>> scrollArea;
 
     //Parameter objects
     parameterList ParameterList;
@@ -63,12 +64,12 @@ private:
 
     //Tree Widget items for navigation
     QTreeWidget *treeWidget = new QTreeWidget();
-    QList<QTreeWidgetItem*> treeWidgetItems;
-    QList<QList<QTreeWidgetItem*>> treeWidgetChildren;
-    QList<int> OldSelection;
+    QVector<QTreeWidgetItem*> treeWidgetItems;
+    QVector<QVector<QTreeWidgetItem*>> treeWidgetChildren;
+    QVector<int> OldSelection;
 
     //Element related objects
-    QList<QList<QList<QLineEdit*>>> lineEdit;
-    QList<QList<int>> countProps;
+    QVector<QVector<QVector<QLineEdit*>>> lineEdit;
+    QVector<QVector<int>> countProps;
 };
 #endif // MAINWINDOW_H

@@ -7,16 +7,25 @@ QStringList parameterList::getParameterList(gui::Parameter_List_Type aModule, in
 {
     //Tried to make an example Parameter list in the format that MORIS has
 
-    QList<QStringList> tParameterList;
+    QVector<QStringList> tParameterList;
 
 
     switch ( aModule )
     {
     case gui::Parameter_List_Type::OPT:
-        tParameterList.resize(1);
+        tParameterList.resize(3);
         tParameterList[0] = {"is_optimization_problem", //T/F
                              "workflow", //Free
                              "finite_difference_epsilons"}; //Free
+
+        tParameterList[1] = {"shared_advs", //T/F
+                             "parallel", //Free
+                             "num_processors_per_interface"}; //Free
+
+        tParameterList[2] = {"gcmma", //T/F
+                             "lbfgs",
+                             "sqp", //Free
+                             "sweep"}; //Free
         break;
 
     case gui::Parameter_List_Type::HMR:

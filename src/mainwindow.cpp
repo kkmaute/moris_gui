@@ -23,16 +23,16 @@ MainWindow::MainWindow(QWidget *parent)
 
         treeWidgetItems.append(new QTreeWidgetItem);
         treeWidgetItems[iRoot]->setText(0,ProjectNames[iRoot]);
-        QList<QTreeWidgetItem*> tList;
+        QVector<QTreeWidgetItem*> tList;
         treeWidgetChildren.append(tList);
 
-        QList<QFormLayout*> tFormLayout;
+        QVector<QFormLayout*> tFormLayout;
         formLayout.append(tFormLayout);
 
-        QList<QWidget*> tScrollWidget;
+        QVector<QWidget*> tScrollWidget;
         scrollWidget.append(tScrollWidget);
 
-        QList<QScrollArea*> tScrollArea;
+        QVector<QScrollArea*> tScrollArea;
         scrollArea.append(tScrollArea);
 
         lineEdit[iRoot].resize(tStringList.size());

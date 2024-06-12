@@ -1,10 +1,10 @@
 /home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/moris_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/sanghvi/moris_gui/mainwindow.h \
   /home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/moris_gui_autogen/moc_predefs.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QFile \
-  /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QList \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QString \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QStringList \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QTextStream \
+  /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/QVector \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/q20functional.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/q20type_traits.h \
@@ -127,6 +127,7 @@
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qutf8stringview.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qvariant.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qvector.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qversiontagging.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qxptype_traits.h \
   /home/sanghvi/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \

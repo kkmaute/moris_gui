@@ -2,7 +2,7 @@
 #define PARAMETERLIST_H
 
 
-#include <QList>
+#include <QVector>
 #include <QStringList>
 #include "gui_namespace.h"
 
@@ -14,7 +14,7 @@ public:
 
     QStringList getParameterList(gui::Parameter_List_Type, int);
     QStringList getProjectNames();
-    QList<QStringList> getParameterNames(gui::Parameter_List_Type);
+    QVector<QStringList> getParameterNames(gui::Parameter_List_Type);
     uint getNumberOfSubParameterListsInModule(gui::Parameter_List_Type aModule );
     QStringList getOuterSubParameterListName(gui::Parameter_List_Type aModule);
 };
