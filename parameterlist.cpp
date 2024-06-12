@@ -3,7 +3,7 @@
 parameterList::parameterList() {}
 
 
-QList<QStringList> parameterList::getParameterList(gui::Parameter_List_Type aModule)
+QStringList parameterList::getParameterList(gui::Parameter_List_Type aModule, int aChild)
 {
     //Tried to make an example Parameter list in the format that MORIS has
 
@@ -268,7 +268,7 @@ QList<QStringList> parameterList::getParameterList(gui::Parameter_List_Type aMod
         break;
     }
 
-    return tParameterList;
+    return tParameterList[aChild];
 
 
 }

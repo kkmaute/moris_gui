@@ -1,0 +1,9 @@
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/moris_gui.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/edit_cache.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/list_install_components.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/local.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/install/strip.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/moris_gui_autogen_timestamp_deps.dir
+/home/sanghvi/moris_gui/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/moris_gui_autogen.dir

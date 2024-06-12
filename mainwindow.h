@@ -35,16 +35,40 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void parameterSelected(QTreeWidgetItem*, QTreeWidgetItem*);
+
+    QVector<int> getTreeIndex(QTreeWidgetItem*);
+
+    void setFormVisible(int, int, bool);
+
+    void addElements(int, int);
+
+
 private:
     Ui::MainWindow *ui;
-    parameterList ParameterList;
+
+    //Layout objects
     QHBoxLayout *layout = new QHBoxLayout(this);
     QVBoxLayout *sidePanel = new QVBoxLayout();
-    QTreeWidget *treeWidget = new QTreeWidget();
+    QList<QList<QFormLayout*>> formLayout;
 
-    QList<QTreeWidgetItem*> treeWidgetItems;
-    QList<QTreeWidgetItem*> tTreeWidgetItems;
-    QList<QList<QTreeWidgetItem*>> treeWidgetChildren;
+    //Scrolling objects
+    QList<QList<QWidget*>> scrollWidget;
+    QList<QList<QScrollArea*>> scrollArea;
+
+    //Parameter objects
+    parameterList ParameterList;
     QStringList ProjectNames;
+
+    //Tree Widget items for navigation
+    QTreeWidget *treeWidget = new QTreeWidget();
+    QList<QTreeWidgetItem*> treeWidgetItems;
+    QList<QList<QTreeWidgetItem*>> treeWidgetChildren;
+    QList<int> OldSelection;
+
+    //Element related objects
+    QList<QList<QList<QLineEdit*>>> lineEdit;
+    QList<QList<int>> countProps;
 };
 #endif // MAINWINDOW_H

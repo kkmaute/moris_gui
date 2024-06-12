@@ -12,7 +12,7 @@ class parameterList
 public:
     parameterList();
 
-    QList<QStringList> getParameterList(gui::Parameter_List_Type);
+    QStringList getParameterList(gui::Parameter_List_Type, int);
     QStringList getProjectNames();
     QList<QStringList> getParameterNames(gui::Parameter_List_Type);
     uint getNumberOfSubParameterListsInModule(gui::Parameter_List_Type aModule );
