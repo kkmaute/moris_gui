@@ -16,7 +16,7 @@
 #include <QComboBox>
 #include <QScrollArea>
 #include <QTreeWidget>
-#include <QVector>
+#include <QList>
 
 #include "parameterlist.h"
 
@@ -39,7 +39,7 @@ public:
 private slots:
     void parameterSelected(QTreeWidgetItem*, QTreeWidgetItem*);
 
-    QVector<int> getTreeIndex(QTreeWidgetItem*);
+    QList<int> getTreeIndex(QTreeWidgetItem*);
 
     void setFormVisible(int, int, bool);
 
@@ -52,11 +52,11 @@ private:
     //Layout objects
     QHBoxLayout *layout = new QHBoxLayout(this);
     QVBoxLayout *sidePanel = new QVBoxLayout();
-    QVector<QVector<QFormLayout*>> formLayout;
+    QList<QList<QFormLayout*>> formLayout;
 
     //Scrolling objects
-    QVector<QVector<QWidget*>> scrollWidget;
-    QVector<QVector<QScrollArea*>> scrollArea;
+    QList<QList<QWidget*>> scrollWidget;
+    QList<QList<QScrollArea*>> scrollArea;
 
     //Parameter objects
     parameterList ParameterList;
@@ -64,12 +64,12 @@ private:
 
     //Tree Widget items for navigation
     QTreeWidget *treeWidget = new QTreeWidget();
-    QVector<QTreeWidgetItem*> treeWidgetItems;
-    QVector<QVector<QTreeWidgetItem*>> treeWidgetChildren;
-    QVector<int> OldSelection;
+    QList<QTreeWidgetItem*> treeWidgetItems;
+    QList<QList<QTreeWidgetItem*>> treeWidgetChildren;
+    QList<int> OldSelection;
 
     //Element related objects
-    QVector<QVector<QVector<QLineEdit*>>> lineEdit;
-    QVector<QVector<int>> countProps;
+    QList<QList<QList<QLineEdit*>>> lineEdit;
+    QList<QList<int>> countProps;
 };
 #endif // MAINWINDOW_H
