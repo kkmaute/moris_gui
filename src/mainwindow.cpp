@@ -17,6 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
     gui::Parameter_List_Type aModule = gui::Parameter_List_Type::OPT;
     QStringList tStringList;
 
+    int a = 0;
+
     for (int iRoot = 0; iRoot < ProjectNames.size(); iRoot++) {
 
         tStringList = ParameterList.getOuterSubParameterListName(aModule);
